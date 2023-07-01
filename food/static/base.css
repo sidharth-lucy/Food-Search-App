@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-color: rgb(245, 237, 237);
+
+}
+
+.parent{
+    margin:150px auto;
+    padding: 10px ;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.foodies{
+    margin:30px auto;
+    padding: 10px ;
+    text-align: center;
+    width: 80%;
+    
+}
+
+.foodCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.singleCard{
+    background:#fdb4f1;
+    
+    margin: 5px;
+}
+
+
+a{
+    font-weight: 500;
+}
+
+
+h2{
+    color: green;
+}
